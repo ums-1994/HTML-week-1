@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Introduction to HTML</h1>
+    </header>
+
+    <h2>What is HTML?</h2>
+    <p>HTML is the standard markup language for creating Web pages. HTML stands for Hyper Text Markup Language. HTML describes the structure of the Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+    <p>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</p> 
+<p>Browsers do not display the HTML tags, but use them to render the content of the page.</p>
+    <p>HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusions in HTML can be realized using HTML tags.</p>
+    <h3>Registration Form</h3>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        <input type="submit" value="Register">
+    </form>
+
+    <h3>User Information Table</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Merriam Hlao</td>
+                <td>merriam.hlao@example.com</td>
+                <td>(011) 111-7890</td>
+            </tr>
+            <tr>
+                <td>Bulelwa Booi</td>
+                <td>bulelwa.booi@example.com</td>
+                <td>(011) 000-1111</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Image</h3>
+    <img src="premium_vector-1711987674097-605fc44a6baa.png" alt="Web Development" style="width:500px; height:600px;">
+    
+    
+    <h3>External Link</h3>
+    <a href="https://google.com" target="_blank">Go to Google</a>
+</body>
+</html>
